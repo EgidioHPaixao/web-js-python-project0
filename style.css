@@ -1,0 +1,38 @@
+@media (min-width: 601px) {
+  img {
+    width: 20%; } }
+@media (max-width: 600px) {
+  img {
+    width: 35%; } }
+h1, h6 {
+  text-align: center; }
+  h1 i, h6 i {
+    text-shadow: lightgray 2px 4px; }
+
+a:hover, div[class^="btn"] {
+  font-size: 105%; }
+
+p, table, img {
+  margin: 10px; }
+
+th, td, tr {
+  border: 3px solid gray;
+  padding: 5px;
+  text-align: center; }
+
+th {
+  background-color: lightgray; }
+
+.evenCol {
+  background-color: lightgray; }
+
+.oddCol {
+  background-color: white; }
+
+div[class^='col']:hover h3 {
+  font-weight: bold; }
+
+#lastOne {
+  background-color: lightblue; }
+
+/*# sourceMappingURL=style.css.map */
